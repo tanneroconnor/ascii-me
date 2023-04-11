@@ -9,13 +9,10 @@ public class PixelGroup {
     public PixelGroup() {
         this.pixels = new ArrayList<>();
     }
-    public PixelGroup(List<Pixel> pixels) {
-        this.pixels = pixels;
-    }
 
     public int getGrayValue() {
         int sum = 0;
-        for(Pixel pixel : pixels) {
+        for (Pixel pixel : pixels) {
             sum += pixel.getGreyValue();
         }
         return sum / pixels.size();

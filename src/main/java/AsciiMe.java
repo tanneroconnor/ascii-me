@@ -29,7 +29,7 @@ public class AsciiMe implements Callable<Integer> {
     @Parameters(index = "0", description = "Input image file. The image being converted into ASCII art.")
     private File input;
 
-    @Option(names = { "-o", "--output" }, description = "Optional output file path for the ASCII art instead.")
+    @Option(names = {"-o", "--output"}, description = "Optional output file path for the ASCII art instead.")
     private File output;
 
     @Option(names = {"-i", "--invert"}, description = "Invert the brightness / darkness of the ASCII art.")
@@ -51,7 +51,7 @@ public class AsciiMe implements Callable<Integer> {
             } else {
                 asciiArt.printToConsole(isInverted);
             }
-        } catch(IOException e) {
+        } catch (IOException e) {
             System.err.println("Error reading or writing file: " + e.getMessage());
             return 1;
         }
@@ -63,7 +63,6 @@ public class AsciiMe implements Callable<Integer> {
         if (!inputFile.exists()) {
             throw new FileNotFoundException("Input file not found");
         }
-
         return ImageIO.read(inputFile);
     }
 

@@ -18,6 +18,7 @@ public class ImageToAsciiArtConverter {
 
     private final int asciiArtWidth;
     private final int asciiArtHeight;
+
     public ImageToAsciiArtConverter(BufferedImage image, int asciiArtWidth) {
         this.image = image;
         this.imageWidth = image.getWidth();
