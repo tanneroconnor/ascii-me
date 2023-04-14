@@ -29,13 +29,13 @@ public class AsciiMe implements Callable<Integer> {
     @Parameters(index = "0", description = "Input image file. The image being converted into ASCII art.")
     private File input;
 
-    @Option(names = {"-o", "--output"}, description = "Optional output file path for the ASCII art instead.")
+    @Option(names = {"-o", "--output"}, description = "Write the ASCII art to a file instead of stdout.")
     private File output;
 
-    @Option(names = {"-i", "--invert"}, description = "Invert the brightness / darkness of the ASCII art.")
+    @Option(names = {"-i", "--invert"}, description = "Invert the brightness/darkness of the ASCII art.")
     private boolean isInverted = false;
 
-    @Option(names = "-w", description = "Width of the output image (default: 150)")
+    @Option(names = "-w", description = "Set the maximum width of the output image (default: 150).")
     private int maxWidth = DEFAULT_ART_WIDTH;
 
     @Override
