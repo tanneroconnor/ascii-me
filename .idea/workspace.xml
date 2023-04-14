@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f88911ec-6f7b-4e6b-bbbf-4fc6fa4dcdd9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +26,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2O72ls1fL9Zfx94E1y9HAhpG7Jz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,6 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Tanner/Documents/Computer Science/Self-Study/image-to-ascii-art/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -71,20 +65,7 @@
     <configuration name="AsciiMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AsciiMe" />
       <module name="ascii-me" />
-      <option name="PROGRAM_PARAMETERS" value="src/main/resources/big-bois.JPG -w 300 -o bigboi.txt" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ascii-me" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ascii-me" />
-      <option name="filePath" />
+      <option name="PROGRAM_PARAMETERS" value="src/test/resources/img8304.jpg -w 200" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,7 +86,10 @@
       <updated>1680897454499</updated>
       <workItem from="1680897455777" duration="7297000" />
       <workItem from="1680957865813" duration="8978000" />
-      <workItem from="1680996207622" duration="42519000" />
+      <workItem from="1680996207622" duration="46205000" />
+      <workItem from="1681328678970" duration="1082000" />
+      <workItem from="1681477649612" duration="86000" />
+      <workItem from="1681477891643" duration="5771000" />
     </task>
     <servers />
   </component>
